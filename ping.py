@@ -5,10 +5,10 @@ my_device = sys.argv[1]
 
 if __name__ == '__main__':
     try:
-      pingpong = subprocess.Popen(["ping", my_device],stdout=subprocess.PIPE)
+      pingping = subprocess.Popen(["ping", my_device],stdout=subprocess.PIPE)
       
       while True:
-        line = pingpong.stdout.readline()
+        line = pingping.stdout.readline()
         if not line:
           break
 
