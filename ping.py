@@ -17,7 +17,6 @@ if __name__ == '__main__':
         if my_device in connected_device:
           print(connected_device)
           subprocess.Popen(["write", "connected to network"])
-          #execute your **** here
     
     except KeyboardInterrupt:
         print(sys.stderr, '\nExiting by user request.\n')
